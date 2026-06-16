@@ -1,0 +1,8 @@
+# Local tooling / session artifacts
+.claude/
+.remember/
+
+# Generated output
+*.iso
+*.iso.sha1.txt
+*.sha1.txt
