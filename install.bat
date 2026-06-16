@@ -49,7 +49,7 @@ reg add "HKCU\Software\Classes\Directory\Background\shell\CreateIso" /ve /d "Cre
 reg add "HKCU\Software\Classes\Directory\Background\shell\CreateIso" /v "Icon" /d "imageres.dll,-164" /f >nul
 reg add "HKCU\Software\Classes\Directory\Background\shell\CreateIso\command" /ve /d "%PS_CMD%" /f >nul
 
-echo [install] Installed to %DST%
+echo [install] Installed to %INSTALL_DIR%
 echo [install] On Windows 11, right-click a folder then choose "Show more options"
 echo [install] (or press Shift+F10) to see "Create ISO from folder".
 endlocal
